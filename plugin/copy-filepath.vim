@@ -4,7 +4,7 @@
 " the current file.
 
 function! SetGlobalCopyBuffer(content)
-  if has("mac") || has("gui_macvim") || has("gui_mac") || has("windows")
+  if (has("mac") && has("gui")) || has("gui_macvim") || has("gui_mac") || has("windows")
     let @*=a:content
   else
     let @+=a:content
