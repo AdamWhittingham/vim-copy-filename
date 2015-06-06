@@ -3,6 +3,16 @@ vim-copy-filepath
 
 A tiny bit of Vimscript to add commands for copying the relative path, absolute path, name and directory of the current file.
 
+Installation
+------------
+
+Grab your favourite Vim-plugin manager and add this github URL.
+For example, with the excellent [vim-plug](https://github.com/junegunn/vim-plug) you would add:
+
+```
+Plug 'AdamWhittingham/vim-copy-filepath'
+```
+
 Commands
 --------
 
