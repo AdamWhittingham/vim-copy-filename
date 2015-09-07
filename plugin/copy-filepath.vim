@@ -18,7 +18,7 @@ endfunction
 command! CopyRelativePath :call CopyRelativePath()
 
 function! CopyRelativePathAndLine()
-  call SetGlobalCopyBuffer(expand("%:p") . ":" . line('.'))
+  call SetGlobalCopyBuffer(expand("%") . ":" . line('.'))
   echo 'Relative path and line copied'
 endfunction
 command! CopyRelativePathAndLine :call CopyRelativePathAndLine()
